@@ -1,0 +1,24 @@
+{
+  "name": "ebay-inventory-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for eBay Inventory API Proxy and Plugin",
+  "main": "worker.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "ebay",
+    "inventory",
+    "api",
+    "proxy",
+    "plugin"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
