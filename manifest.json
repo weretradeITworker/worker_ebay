@@ -1,0 +1,21 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "eBay Inventory Manager",
+  "name_for_model": "ebay_inventory",
+  "description_for_human": "Manage and publish eBay inventory items and auctions.",
+  "description_for_model": "Plugin to manage inventory items, create or update listings, and control offers on eBay using the Inventory API.",
+  "auth": {
+    "type": "oauth",
+    "client_url": "https://developer.ebay.com/myapps",
+    "authorization_url": "https://auth.ebay.com/oauth2/authorize",
+    "token_url": "https://api.ebay.com/identity/v1/oauth2/token",
+    "scope": "https://api.ebay.com/oauth/api_scope/sell.inventory"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://shrill-disk-c035.fscheugenpflug4.workers.dev/actions.yaml"
+  },
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+  "contact_email": "support@yourdomain.com",
+  "legal_info_url": "https://developer.ebay.com/join/api-license-agreement"
+}
